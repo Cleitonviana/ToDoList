@@ -46,13 +46,13 @@ mvn spring-boot:run
 
 GET /tarefas → Retorna todas as tarefas
 
-POST /tarefas → Adiciona uma nova tarefa (status padrão: pendente)
+POST /adicionar → Adiciona uma nova tarefa (status padrão: pendente)
 
-PUT /tarefas/{id} → Atualiza nome ou descrição de uma tarefa
+PUT /atualizar/{id} → Atualiza nome ou descrição de uma tarefa
 
-PATCH /tarefas/{id}/status → Altera o status para concluído
+PUT /atualizarstatus/{id}/status → Altera o status para concluído
 
-DELETE /tarefas/{id} → Remove uma tarefa pelo ID
+DELETE /apagar/{id} → Remove uma tarefa pelo ID
 
 📌 Considerações
 
